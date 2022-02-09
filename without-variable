@@ -1,0 +1,13 @@
+main()
+{
+  int a,b;
+  clrscr();
+  printf("enter the values of a and b");
+  scanf("%d %d", &a,&b);
+  printf("before A=%d B=%d",a,b);
+  a=a+b;
+  b=a-b;
+  a=a-b;
+  printf("after A=%d B=%d",a,b);
+  getch();
+}
